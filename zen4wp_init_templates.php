@@ -18,7 +18,7 @@
 // Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
 // -----
 /*
- * Determine the active template name
+ * Determine the active template name.
  */
   $zen_template_dir = '';
   $sql = "SELECT template_dir

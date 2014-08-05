@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Zen4Wp - Best Sellers
  * Plugin URI: http://zencart-wordpress-integration.com/
- * Description: Display a list (with links) of the current best-sellers from your Zen Cart store. Visit <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to configure Zen4WP.
+ * Description: Display a list (with links) of the current best-sellers from your Zen Cart store. Visit <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to configure Zen4WP
  * Version: 1.3.0
  * Author: Vinos de Frutas Tropicales and Over the Hill Web Consulting
  * Author URI: http://zencart-wordpress-integration.com/

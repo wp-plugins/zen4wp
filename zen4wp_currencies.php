@@ -13,7 +13,7 @@
 // Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
 // -----
 /**
- * currencies Class.
+ * currencies Class
  * Class to handle currencies
  *
  * @package classes

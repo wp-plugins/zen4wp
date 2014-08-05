@@ -6,11 +6,11 @@
 
 // -----
 // This module initializes the database configuration constants (i.e. PHP defined values) that are used by the various
-// functions that support the Zen Cart widgets for Wordpress.
+// functions that support the Zen Cart widgets for Wordpress
 //
 
 // -----
-// Check to see if the hide_categories table is present in the database; set a global flag for the widgets' use.
+// Check to see if the hide_categories table is present in the database; set a global flag for the widgets' use
 //
 global $wpdb;  /*v1.3.0a*/
 $hc_count = $wpdb->query( "SHOW TABLES like '" . ZEN_TABLE_HIDE_CATEGORIES . "'" );

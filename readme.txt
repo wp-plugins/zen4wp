@@ -1,4 +1,4 @@
-=== Zen Cart® for WordPress (zen4wp) ===
+=== Zen Cart for WordPress (zen4wp) ===
 Tags: WordPress and Zen Cart, WordPress integration, wp4zen, Zen Cart and WordPress Integration, Zen Cart integration, 
 
 zen4wp
@@ -16,11 +16,11 @@ This series of WordPress widgets provide methods to seamlessly link your Zen Car
 
 If you are interested integrating Zen Cart and WordPress, it's probably because you want to mention the products from your Zen Cart store in your WordPress blog. Wouldn't it be nice to be able to put links to your products into the relevant blog posts and pages? Wouldn't it be nice to have the ability to display your New or Featured Products on the home page of your WordPress blog and have those listings update automatically as your Zen Cart store changes?
 
-WordPress is known as one of the best open-source Content Management Systems (CMS) for creating blogs while Zen Cart is a one of the best open-source frameworks to build an on-line shopping cart. Each has its own outstanding features, but the combination of them will create a great product which we are calling "Zen Cart® for WordPress (zen4wp)". 
+WordPress is known as one of the best open-source Content Management Systems (CMS) for creating blogs while Zen Cart is a one of the best open-source frameworks to build an on-line shopping cart. Each has its own outstanding features, but the combination of them will create a great product which we are calling "Zen Cart for WordPress (zen4wp)". 
 
 Basically, Zen4WP is a WordPress plugin that can be used to integrate Zen Cart **INSIDE** WordPress so that shopowners can display Zen Cart content **DIRECTLY** on their WordPress site via a series of widgets and shortcodes (***shortcodes are a Premium Feature***).
 
-= Prerequisites for Zen Cart® for WordPress (zen4wp) =
+= Prerequisites for Zen Cart for WordPress (zen4wp) =
 
    * A Zen Cart store installed and operable. Tested with Zen Cart v1.5.x.
    * WordPress installed and operable. Tested with WordPress v3.5.x - v3.9.x.
@@ -28,15 +28,15 @@ Basically, Zen4WP is a WordPress plugin that can be used to integrate Zen Cart *
    * The Zen Cart and WordPress installations must share the same domain.
    * Update the admin configuration options with the correct filepath to the WordPress installation.
 
-Note: If your store/blog configuration does NOT match these prerequisites, then Zen Cart® for WordPress (zen4wp) will not function
+Note: If your store/blog configuration does NOT match these prerequisites, then Zen Cart for WordPress (zen4wp) will not function
 
-= Want more??? Get Zen Cart® for WordPress Premium (zen4wp) =
+= Want more??? Get Zen Cart for WordPress Premium (zen4wp) =
 
-[Zen Cart® for WordPress Premium (zen4wp)](http://overthehillweb.com/shop/premium-modules-plugins-addons/wordpress-premium-plugins/zen-cartr-for-wordpress-zen4wp#.U9Joe7GTIS4) adds more widgets (including the shopping cart, categories, manufacturers, reviews, and testimonials widget) and shortcodes.
+[Zen Cart for WordPress Premium (zen4wp)](http://overthehillweb.com/shop/premium-modules-plugins-addons/wordpress-premium-plugins/zen-cartr-for-wordpress-zen4wp#.U9Joe7GTIS4) adds more widgets (including the shopping cart, categories, manufacturers, reviews, and testimonials widget) and shortcodes.
 
-To use the premium (paid) features, you must first install the (free) base plugin (Zen Cart® for WordPress) 
+To use the premium (paid) features, you must first install the (free) base plugin (Zen Cart for WordPress) 
 
-= Zen Cart® for WordPress Features =
+= Zen Cart for WordPress Features =
 This list identifies each of the features provided by zen4wp and the zen4wp level that includes the feature.  Premium – Option 1 includes all Base features;  Premium – Option 2 includes all Base and Premium – Option 1 features.
 
 * ***zen4wp_best_sellers*** - Displays an ordered-list that contains the current best-sellers from the Zen Cart store, each list-item is a link back to the associated product's detailed information page. You configure the number to display and whether the purchase-count is included. <br />***(Base)***
@@ -69,14 +69,14 @@ This list identifies each of the features provided by zen4wp and the zen4wp leve
 * ***zen4wp_testimonials*** - If the testimonials_manager plugin is installed, displays a collection of testimonials from the Zen Cart store, modelled after the Testimonials sidebox. You configure the total number and the number-per-row for each instance as well as the number of characters of the testimonials text to include. <br />***(Premium — Option 2)***
 
 == Other Modules/Plugins ==
-For a COMPLETE integration solution, see also: [WordPress for Zen Cart® Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen#.U9JykrGTIS4)
-WordPress for Zen Cart® (wp4zen) is a Zen Cart module that allows shopowners to display WordPress content on their Zen Cart site simply using sideboxes.
+For a COMPLETE integration solution, see also: [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen#.U9JykrGTIS4)
+WordPress for Zen Cart (wp4zen) is a Zen Cart module that allows shopowners to display WordPress content on their Zen Cart site simply using sideboxes.
 
 These admin configurable sideboxes are meant to link your WordPress blog to your Zen Cart store without having to implement complicated WordPress blog embedding solutions/add-ons. These sideboxes pull content links directly from the WordPress blog. All a store owner has to do is to style their WordPress blog to match their store (or vice versa).
 
 Some may find these sideboxes are a LOT less troublesome than blog embedding solutions.
 
-See [WordPress for Zen Cart® Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen#.U9JykrGTIS4) in action here:
+See [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen#.U9JykrGTIS4) in action here:
 
 * http://eyeitalia.com
 * http://laserdiscvault.com
@@ -97,7 +97,7 @@ See [WordPress for Zen Cart® Basic (wp4zen)](http://overthehillweb.com/shop/free
 * http://lakesidefasteners.ca
 * http://overthehillweb.com
 
-= Why does Zen Cart® for WordPressss require the same database that Zen Cart uses? Could I configure a different database for the blog? I don't think it's that desirable to mix the product and order data with blog data? = 
+= Why does Zen Cart for WordPressss require the same database that Zen Cart uses? Could I configure a different database for the blog? I don't think it's that desirable to mix the product and order data with blog data? = 
 Having Zen Cart look up info in WordPress tables in a database Zen Cart already has access to is a world of difference from having to establish credentials and communication with a different database. The two table systems can be separated with prefixes if necessary; the capability is built into WordPress and Zen Cart.
 
 = How does one set this up for WordPress and Zen Cart to share a database? Zen Cart is in my root and WordPress is installed in a sub-directory. Do I need to reinstall WordPress in a different manner? =
@@ -109,15 +109,15 @@ The default Zen Cart database prefix is '' (i.e. none) and the default WordPress
 = Does it matter whether or not WordPress is in the main site root or does Zen Cart have to be in the main site root? =
 IN GENERAL you need WordPress in a subdirectory of Zen Cart OR Zen Cart in a sub-directory of WordPress. You don't install them BOTH in the root of your domain.. Bottomline is this plugin works REGARDLESS as to which is in the root folder (WordPress or Zen Cart).
 
-= When someone goes to the shop page I don’t want it to look like the Zen Cart pages. Will Zen Cart® for WordPress (zen4wp) & WordPress for Zen Cart® (wp4zen) make my Zen Cart site look like my WordPress site? =
+= When someone goes to the shop page I don’t want it to look like the Zen Cart pages. Will Zen Cart for WordPress (zen4wp) & WordPress for Zen Cart (wp4zen) make my Zen Cart site look like my WordPress site? =
 
-Zen Cart® for WordPress (zen4wp) & WordPress for Zen Cart® (wp4zen) isn’t going to change the look of Zen Cart or WordPress. The look and feel of Zen Cart is still controlled by the Zen Cart template and the look and feel of WordPress is still controlled by your WordPress theme. You WILL still need to modify your Zen Cart template to make it MATCH your WordPress site. (which is EXACTLY what was done for the sites that are using Zen4WP — http://www.eyeitalia.com & http://www.laserdiscvault.com)
+Zen Cart for WordPress (zen4wp) & WordPress for Zen Cart (wp4zen) isn’t going to change the look of Zen Cart or WordPress. The look and feel of Zen Cart is still controlled by the Zen Cart template and the look and feel of WordPress is still controlled by your WordPress theme. You WILL still need to modify your Zen Cart template to make it MATCH your WordPress site. (which is EXACTLY what was done for the sites that are using Zen4WP — http://www.eyeitalia.com & http://www.laserdiscvault.com)
 
-Zen Cart® for WordPress (zen4wp) & WordPress for Zen Cart® (wp4zen) are not theming or templating add-ons.. They are CONTENT add-ons. They will allow you to display Zen Cart products, reviews, testimonial, shopping cart, etc in your WordPress site. They will allow you to display your blogs post categories, recent posts or tag cloud widgets, etc in Zen Cart. What your WordPress site and Zen cart site LOOK like is still controlled by the respective WordPress theme and Zen Cart template. Making them LOOK alike is a LOT easier today than it has been historically. (As you can see in http://www.eyeitalia.com & http://www.laserdiscvault.com sites)
+Zen Cart for WordPress (zen4wp) & WordPress for Zen Cart (wp4zen) are not theming or templating add-ons.. They are CONTENT add-ons. They will allow you to display Zen Cart products, reviews, testimonial, shopping cart, etc in your WordPress site. They will allow you to display your blogs post categories, recent posts or tag cloud widgets, etc in Zen Cart. What your WordPress site and Zen cart site LOOK like is still controlled by the respective WordPress theme and Zen Cart template. Making them LOOK alike is a LOT easier today than it has been historically. (As you can see in http://www.eyeitalia.com & http://www.laserdiscvault.com sites)
 
-= I found a plugin for WordPress which says it “integrates osCommerce into any WordPress theme“.  This plugin looks like it embeds osCommerce inside WordPress.  Does Zen Cart® for WordPress (zen4wp) work the same way? Will I be able to embed Zen Cart inside my WordPress site/theme? =
+= I found a plugin for WordPress which says it “integrates osCommerce into any WordPress theme“.  This plugin looks like it embeds osCommerce inside WordPress.  Does Zen Cart for WordPress (zen4wp) work the same way? Will I be able to embed Zen Cart inside my WordPress site/theme? =
 
-Simply put, no. Unlike other plugins, Zen Cart® for WordPress (zen4wp) is not going to display a whole Zen Cart store inside WordPress.. Zen Cart® for WordPress (zen4wp) is NOT an embedding plugin (ALA WordPress on Zen Cart or other “blog embedding” solutions). Zen Cart® for WordPress (zen4wp) allows you to display specific Zen Cart content on your WordPress site using a series of widgets (which can be displayed inside any WordPress sidebar) and shortcodes (which can be displayed inside any page or post or text widget).. Unlike embedding plugins, Zen Cart® for WordPress (zen4wp) allows you to use the FULL power of WordPress and the FULL power of Zen Cart. This means that you will be able to use any plugin/module for Zen Cart or WordPress without limits (like having to implement some gnarly code just to get your Zen Cart module to work inside WordPress).
+Simply put, no. Unlike other plugins, Zen Cart for WordPress (zen4wp) is not going to display a whole Zen Cart store inside WordPress.. Zen Cart for WordPress (zen4wp) is NOT an embedding plugin (ALA WordPress on Zen Cart or other “blog embedding” solutions). Zen Cart for WordPress (zen4wp) allows you to display specific Zen Cart content on your WordPress site using a series of widgets (which can be displayed inside any WordPress sidebar) and shortcodes (which can be displayed inside any page or post or text widget).. Unlike embedding plugins, Zen Cart for WordPress (zen4wp) allows you to use the FULL power of WordPress and the FULL power of Zen Cart. This means that you will be able to use any plugin/module for Zen Cart or WordPress without limits (like having to implement some gnarly code just to get your Zen Cart module to work inside WordPress).
 
 = Where can I get more information? = 
 To learn more, go to http://zencart-wordpress-integration.com/
