@@ -37,7 +37,7 @@ Note: If your store/blog configuration does NOT match these prerequisites, then 
 To use the premium (paid) features, you must first install the (free) base plugin (Zen Cart for WordPress) 
 
 = Zen Cart for WordPress Features =
-This list identifies each of the features provided by zen4wp and the zen4wp level that includes the feature.  Premium – Option 1 includes all Base features;  Premium – Option 2 includes all Base and Premium – Option 1 features.
+This list identifies each of the features provided by zen4wp and the zen4wp level that includes the feature.  Premium - Option 1 includes all Base features;  Premium - Option 2 includes all Base and Premium - Option 1 features.
 
 * ***zen4wp_best_sellers*** - Displays an ordered-list that contains the current best-sellers from the Zen Cart store, each list-item is a link back to the associated product's detailed information page. You configure the number to display and whether the purchase-count is included. <br />***(Base)***
 
