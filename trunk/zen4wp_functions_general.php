@@ -15,7 +15,7 @@
 // -----
 
 /**
- * Parse the data used in the html tags to ensure the tags will not break.
+ * Parse the data used in the html tags to ensure the tags will not break
  * Basically just an extension to the php strstr function
  * @param string The string to be parsed
  * @param string The needle to find

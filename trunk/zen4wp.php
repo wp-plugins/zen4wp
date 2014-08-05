@@ -1,7 +1,7 @@
 <?php
 // ----------------------------------------------------------------------------
 // Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
-// Part of the Zen Cart for WordPress (zen4wp) series.
+// Part of the Zen Cart for WordPress (zen4wp) series
 // ----------------------------------------------------------------------------
 // This module represents the main, common functionality to support the Zen Cart widgets
 // for WordPress.  It must be 'require_once'd by each zen4wp widget to provide the

@@ -1,7 +1,7 @@
 <?php 
 // ----------------------------------------------------------------------------
 // Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
-// Part of the Zen Cart for WordPress (zen4wp) series.
+// Part of the Zen Cart for WordPress (zen4wp) series
 // ----------------------------------------------------------------------------
 //
 // This module contains the configuration settings that should be customized for each installation.

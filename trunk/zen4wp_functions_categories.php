@@ -14,7 +14,7 @@
 // -----
 
 // -----
-// Based on zen_get_generated_category_path_rev (from functions_categories.php).
+// Based on zen_get_generated_category_path_rev (from functions_categories.php)
 //
 function zen4wp_get_generated_category_path_rev($this_categories_id) {
   $categories = array();

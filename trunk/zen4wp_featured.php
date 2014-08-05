@@ -14,7 +14,7 @@
 // Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
 // -----
 // -----
-// Load the common functions and definitions
+// Load the common functions and definitions.
 //
 require_once(realpath(dirname(__FILE__)) . '/zen4wp.php');  /*v1.1.0c*/
 
