@@ -1,5 +1,5 @@
 === Zen Cart for WordPress (zen4wp) ===
-Tags: WordPress and Zen Cart, WordPress integration, wp4zen, Zen Cart and WordPress Integration, Zen Cart integration, 
+Tags: WordPress and Zen Cart, WordPress integration, wp4zen, Zen Cart and WordPress Integration, Zen Cart integration, ecommerce, featured products, new products, special products, zencart, zen cart
 
 zen4wp
 Contributors: lat9, DivaVocals
