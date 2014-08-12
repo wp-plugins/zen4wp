@@ -37,7 +37,6 @@ define('ZEN_TABLE_PRODUCTS_ATTRIBUTES', ZEN_DB_PREFIX . 'products_attributes');
 define('ZEN_TABLE_PRODUCTS_DESCRIPTION', ZEN_DB_PREFIX . 'products_description');
 define('ZEN_TABLE_PRODUCTS_OPTIONS', ZEN_DB_PREFIX . 'products_options');
 define('ZEN_TABLE_PRODUCTS_TO_CATEGORIES', ZEN_DB_PREFIX . 'products_to_categories');
-define('ZEN_TABLE_PRODUCT_TYPES', ZEN_DB_PREFIX . 'product_types');
 define('ZEN_TABLE_PRODUCT_TYPE_LAYOUT', ZEN_DB_PREFIX . 'product_type_layout');
 define('ZEN_TABLE_REVIEWS', ZEN_DB_PREFIX . 'reviews');
 define('ZEN_TABLE_REVIEWS_DESCRIPTION', ZEN_DB_PREFIX . 'reviews_description');
