@@ -14,7 +14,7 @@
 // -----
 ////
 // Returns the tax rate for a zone / class
-// TABLES: tax_rates, zones_to_geo_zones.
+// TABLES: tax_rates, zones_to_geo_zones
   function zen4wp_get_tax_rate($class_id, $country_id = -1, $zone_id = -1) {
     global $wpdb;
 

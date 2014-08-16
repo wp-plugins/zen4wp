@@ -86,24 +86,60 @@ $currencies = new zen4wp_currencies();
 // -----
 // Common, Zen Cart-based constants, used in various functions.
 //
-define ('TEXT_BASE_PRICE', 'Starting at: ');
-define ('MORE_INFO_TEXT', '... more info');
-define ('BUTTON_CART_ADD_ALT', 'Add to Cart');
-define ('BUTTON_BUY_NOW_ALT', 'Buy Now');
-define ('TEXT_PRODUCT_FREE_SHIPPING_ICON', zen4wp_image (ZEN_DIR_WS_TEMPLATE_IMAGES . 'always-free-shipping.gif', 'Always Free Shipping')); // for an image or comment out to use another 
-define ('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
-define ('TEXT_ONETIME_CHARGE_DESCRIPTION', ' One time charges may apply');
-define ('TEXT_SHOWCASE_ONLY', 'Contact Us');
-define ('TEXT_LOGIN_FOR_PRICE_PRICE', 'Price Unavailable');
-define ('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE', 'Login for price');
-define ('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM', 'Show Room Only');
-define ('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'APPROVAL PENDING');
-define ('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE', 'Login to Shop');
-define ('TEXT_CALL_FOR_PRICE', 'Call for price');
-define ('TEXT_SOLD_OUT', 'Sold Out');
-define ('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max: ');
-define ('PRODUCTS_QUANTITY_MIN_TEXT_LISTING', 'Min: ');
-define ('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING', 'Units: ');
+if (!defined('TEXT_BASE_PRICE')) {
+	define ('TEXT_BASE_PRICE', 'Starting at: ');
+}
+if (!defined('MORE_INFO_TEXT')) {
+	define ('MORE_INFO_TEXT', '... more info');
+}
+if (!defined('BUTTON_CART_ADD_ALT')) {
+	define ('BUTTON_CART_ADD_ALT', 'Add to Cart');
+}
+if (!defined('BUTTON_BUY_NOW_ALT')) {
+	define ('BUTTON_BUY_NOW_ALT', 'Buy Now');
+}
+if (!defined('TEXT_PRODUCT_FREE_SHIPPING_ICON')) {
+	define ('TEXT_PRODUCT_FREE_SHIPPING_ICON', zen4wp_image (ZEN_DIR_WS_TEMPLATE_IMAGES . 'always-free-shipping.gif', 'Always Free Shipping')); // for an image or comment out to use another 
+}
+if (!defined('TEXT_ONETIME_CHARGE_SYMBOL')) {
+	define ('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
+}
+if (!defined('TEXT_ONETIME_CHARGE_DESCRIPTION')) {
+	define ('TEXT_ONETIME_CHARGE_DESCRIPTION', ' One time charges may apply');
+}
+if (!defined('TEXT_SHOWCASE_ONLY')) {
+	define ('TEXT_SHOWCASE_ONLY', 'Contact Us');
+}
+if (!defined('TEXT_LOGIN_FOR_PRICE_PRICE')) {
+	define ('TEXT_LOGIN_FOR_PRICE_PRICE', 'Price Unavailable');
+}
+if (!defined('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE')) {
+	define ('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE', 'Login for price');
+}
+if (!defined('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM')) {
+	define ('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM', 'Show Room Only');
+}
+if (!defined('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE')) {
+	define ('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'APPROVAL PENDING');
+}
+if (!defined('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE')) {
+	define ('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE', 'Login to Shop');
+}
+if (!defined('TEXT_CALL_FOR_PRICE')) {
+	define ('TEXT_CALL_FOR_PRICE', 'Call for price');
+}
+if (!defined('TEXT_SOLD_OUT')) {
+	define ('TEXT_SOLD_OUT', 'Sold Out');
+}
+if (!defined('PRODUCTS_QUANTITY_MAX_TEXT_LISTING')) {
+	define ('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max: ');
+}
+if (!defined('PRODUCTS_QUANTITY_MIN_TEXT_LISTING')) {
+	define ('PRODUCTS_QUANTITY_MIN_TEXT_LISTING', 'Min: ');
+}
+if (!defined('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING')) {
+	define ('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING', 'Units: ');
+}
 
 // -----
 // This function returns the current status of the zen4wp cookie-handler, which coordinates communications
