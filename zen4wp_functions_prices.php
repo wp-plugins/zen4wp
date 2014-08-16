@@ -14,7 +14,7 @@
 // -----
 
 ////
-//get specials price or sale price.
+//get specials price or sale price
   function zen4wp_get_products_special_price($product_id, $specials_price_only=false) {
     global $wpdb;
     $product = $wpdb->get_row("SELECT products_price, products_model, products_priced_by_attribute FROM " . ZEN_TABLE_PRODUCTS . " where products_id = '" . (int)$product_id . "'", ARRAY_A);

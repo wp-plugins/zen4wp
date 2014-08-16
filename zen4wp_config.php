@@ -122,6 +122,10 @@ define('ZEN_DIR_WS_HTTPS_CATALOG', get_option('zen4wp_dir_ws_https_catalog'));
 define('ZEN_ENABLE_SSL', get_option('zen4wp_enable_ssl'));
 define('ZEN_DB_PREFIX', get_option('zen4wp_db_prefix'));
 define('ZEN_DIR_FS_CATALOG', get_option('zen4wp_dir_fs_catalog'));
-define('OTHER_IMAGE_PRICE_IS_FREE', get_option('zen4wp_other_image_price_is_free'));
-define('OTHER_IMAGE_CALL_FOR_PRICE', get_option('zen4wp_other_image_call_for_price'));
 define('ZEN_CHARSET', 'utf-8');
+if (!defined('OTHER_IMAGE_PRICE_IS_FREE')) {
+	define('OTHER_IMAGE_PRICE_IS_FREE', get_option('zen4wp_other_image_price_is_free'));
+}
+if (!defined('OTHER_IMAGE_CALL_FOR_PRICE')) {
+	define('OTHER_IMAGE_CALL_FOR_PRICE', get_option('zen4wp_other_image_call_for_price'));
+}

@@ -15,7 +15,7 @@
 // -----
 
 /*
- *  Check if product has attributes.
+ *  Check if product has attributes
  */
   function zen4wp_has_product_attributes ($products_id, $not_readonly = 'true') {
     global $wpdb;
