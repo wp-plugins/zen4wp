@@ -29,7 +29,10 @@ $config_key_values = $wpdb->get_results( 'SELECT configuration_key, configuratio
                                           WHERE configuration_key IN (' . ZEN_CONFIGURATION_ITEMS . ')', ARRAY_A );
 if ( is_array( $config_key_values ) && sizeof( $config_key_values ) != 0 ) {
   foreach ( $config_key_values as $config_info ) {
-    define ( $config_info['configuration_key'], $config_info['configuration_value'] );
+    if (!defined ($config_info['configuration_key'])) {
+      define ( $config_info['configuration_key'], $config_info['configuration_value'] );
+      
+    }
   }
 }
 
