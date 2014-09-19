@@ -3,7 +3,7 @@
  * Plugin Name: Zen4Wp - Special Products
  * Plugin URI: http://zencart-wordpress-integration.com/
  * Description: Displays a random number of the products on special from your Zen Cart store. Visit <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to configure Zen4WP.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: Vinos de Frutas Tropicales and Over the Hill Web Consulting
  * Author URI: http://zencart-wordpress-integration.com/
  */
