@@ -1,5 +1,5 @@
 === Zen Cart for WordPress (zen4wp) ===
-Tags: WordPress and Zen Cart, Zen Cart and WordPress Integration, wp4zen, zen4wp, WordPress integration, Zen Cart integration, ecommerce, featured products, new products, special products, bestsellers, zencart, zen cart, zen4wp
+Tags: WordPress and Zen Cart, Zen Cart and WordPress Integration, wp4zen, zen4wp, WordPress integration, Zen Cart integration, ecommerce, featured products, new products, special products, bestsellers, zencart, zen cart
 Contributors: lat9, DivaVocals
 Minimum version: 3.5
 Requires at least: 3.5
