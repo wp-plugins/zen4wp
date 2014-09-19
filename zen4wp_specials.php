@@ -9,10 +9,12 @@
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
+ 
 // -----
 // Part of the Zen Cart for WordPress (zen4wp) series
 // Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
 // -----
+
 // -----
 // Load the common functions and definitions
 //
