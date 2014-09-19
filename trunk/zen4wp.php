@@ -12,7 +12,7 @@
 //
 require ('zen4wp_config.php');
 
-define('ZEN4WP_VERSION', '1.3.0');
+define('ZEN4WP_VERSION', '1.3.1');
 
 // -----
 // Folder-related paths.

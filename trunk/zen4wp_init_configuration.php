@@ -61,7 +61,7 @@ unset($config_key_values);
 // Show a message indicating that the ZEN_DIR_FS_CATALOG value is not correct.
 //
 function zen4wp_init_bad_fs() {
-  zen4wp_show_message( 'The value you have specified for ZEN_DIR_FS_CATALOG (' . ZEN_DIR_FS_CATALOG . ') does not reference the root of a Zen Cart installation.', true ); 
+  zen4wp_show_message( 'The value you have specified for ZEN_DIR_FS_CATALOG (' . ZEN_DIR_FS_CATALOG . ') does not reference the root of a Zen Cart installation. Go to <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to check your settings and properly configure Zen4WP.', true ); 
 
 }
 
@@ -69,6 +69,6 @@ function zen4wp_init_bad_fs() {
 // Show a message indicating that either the ZEN_DB_PREFIX value is not correct or the Zen Cart/Wordpress installations don't share a database.
 //
 function zen4wp_database_issue() {
-  zen4wp_show_message( 'No configuration keys were found in the table <em>' . ZEN_TABLE_CONFIGURATION . '</em>.  Either the value for ZEN_DB_PREFIX is not correct or the Wordpress database is not shared with your Zen Cart', true );
+  zen4wp_show_message( 'No configuration keys were found in the table <em>' . ZEN_TABLE_CONFIGURATION . '</em>.  Either the value you entered for ZEN_DB_PREFIX in the <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> is not correct or Wordpress and Zen Cart do not share the same database (a REQUIRED prerequisite as CLEARLY stated in the Zen4WP readme.txt). Go to <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to check your settings and properly configure Zen4WP.', true );
 }
 //-eof-v1.0.1a-lat9

@@ -1,12 +1,10 @@
 === Zen Cart for WordPress (zen4wp) ===
-Tags: WordPress and Zen Cart, Zen Cart and WordPress Integration, wp4zen, zen4wp, WordPress integration, Zen Cart integration, ecommerce, featured products, new products, special products, bestsellers, zencart, zen cart
-
-zen4wp
+Tags: WordPress and Zen Cart, Zen Cart and WordPress Integration, wp4zen, zen4wp, WordPress integration, Zen Cart integration, ecommerce, featured products, new products, special products, bestsellers, zencart, zen cart, zen4wp
 Contributors: lat9, DivaVocals
 Minimum version: 3.5
 Requires at least: 3.5
-Tested up to: 3.9.1
-Stable tag: 1.3.0
+Tested up to: 4.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,5 +125,9 @@ To learn more, go to http://zencart-wordpress-integration.com/
 * Initial release
 = v1.2.3, 2013-10-03 =
 * Incorrect display of some sale prices, especially Salemaker sales and some free products. Changed zen4wp_functions_prices.php.
-= v1.3.0, 2014-03-01 =
+= v1.3.0, 2014-03-30 =
 * Provided enhancements to the [zenprod] Shortcode.
+= v1.3.1, 2014-09-18 =
+* Best Sellers widget: Throwing "printf() too few args" on line 97
+* Correct various PHP notify errors (a couple of which were variable "misspellings").
+* Duplicated definition: ZEN_TABLE_PRODUCT_TYPES
