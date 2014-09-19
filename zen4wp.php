@@ -1,8 +1,19 @@
 <?php
-// ----------------------------------------------------------------------------
-// Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
+/**
+ * Plugin Name: Zen Cart for WordPress (zen4wp)
+ * Plugin URI: http://zencart-wordpress-integration.com/
+ * Description: This module represents the main, common functionality to support the Zen Cart widgets. Visit <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to configure Zen4WP
+ * Version: 1.3.1
+ * Author: Vinos de Frutas Tropicales and Over the Hill Web Consulting
+ * Author URI: http://zencart-wordpress-integration.com/
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+// -----
 // Part of the Zen Cart for WordPress (zen4wp) series
-// ----------------------------------------------------------------------------
+// Copyright (c) 2013-2014, Vinos de Frutas Tropicales (lat9@vinosdefrutastropicales.com)
+// -----
+
 // This module represents the main, common functionality to support the Zen Cart widgets
 // for WordPress.  It must be 'require_once'd by each zen4wp widget to provide the
 // initialization required to link the Zen Cart store's database information to the
