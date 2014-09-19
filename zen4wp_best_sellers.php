@@ -3,7 +3,7 @@
  * Plugin Name: Zen4Wp - Best Sellers
  * Plugin URI: http://zencart-wordpress-integration.com/
  * Description: Display a list (with links) of the current best-sellers from your Zen Cart store. Visit <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to configure Zen4WP
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: Vinos de Frutas Tropicales and Over the Hill Web Consulting
  * Author URI: http://zencart-wordpress-integration.com/
  * License: GPLv2 or later
@@ -58,6 +58,8 @@ class zen4wp_best_sellers extends WP_Widget {
     $title = apply_filters('widget_title', $instance['title'] );
     $number_to_show = isset( $instance['number_to_show'] ) ? $instance['number_to_show'] : 10;
     $show_count = isset( $instance['show_count'] ) ? $instance['show_count'] : 'off';
+    
+    $best_sellers = array ();
 
     // Get the requested number of best sellers from the database
     if (((int)$number_to_show) > 0) {
@@ -91,10 +93,12 @@ class zen4wp_best_sellers extends WP_Widget {
     echo $before_widget;
 
     // Display the widget title 
-    if ( $title )
+    if ( $title ) {
       echo $before_title . $title . $after_title;
+      
+    }
     
-    printf( $best_seller_info );
+    echo $best_seller_info;
     
     echo $after_widget;
   }

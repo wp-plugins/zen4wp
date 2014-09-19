@@ -3,7 +3,7 @@
  * Plugin Name: Zen4Wp - New Products
  * Plugin URI: http://zencart-wordpress-integration.com/
  * Description: Displays a random number of the new products in your Zen Cart store.  Your store's admin configuration controls which products qualify as "new".  Visit <a href="admin.php?page=zen4wp_set_options">Zen4WP Settings Page</a> to configure Zen4WP.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: Vinos de Frutas Tropicales and Over the Hill Web Consulting
  * Author URI: http://zencart-wordpress-integration.com/
  * License: GPLv2 or later
