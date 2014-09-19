@@ -6,6 +6,8 @@
  * Version: 1.3.1
  * Author: Vinos de Frutas Tropicales and Over the Hill Web Consulting
  * Author URI: http://zencart-wordpress-integration.com/
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 // -----
 // Part of the Zen Cart for WordPress (zen4wp) series
