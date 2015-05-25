@@ -12,7 +12,7 @@
 //
 require ('zen4wp_config.php');
 
-define('ZEN4WP_VERSION', '1.3.1');
+define('ZEN4WP_VERSION', '1.3.2');
 
 // -----
 // Folder-related paths.
@@ -63,8 +63,8 @@ require('zen4wp_functions_lookups.php');
 require('zen4wp_functions_prices.php');
 require('zen4wp_functions_taxes.php');
 require('zen4wp_html_output.php');
-if (file_exists (realpath(dirname(__FILE__)) . '/zen4wp_cookie_handler.php')) {
-  require ('zen4wp_cookie_handler.php');
+if (file_exists (realpath(dirname(__FILE__) . '/../../plugins/zen4wp-premium') . '/zen4wp_cookie_handler.php')) {
+  require (realpath(dirname(__FILE__) . '/../../plugins/zen4wp-premium') . '/zen4wp_cookie_handler.php'); /*v1.3.2*/
   
 }
 

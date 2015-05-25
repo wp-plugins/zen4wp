@@ -9,7 +9,7 @@
 add_action('admin_menu', 'add_zen4wp_settings_page'); 
 
 function add_zen4wp_settings_page() {
-  add_options_page('Set Zen4Wp Options', 'Set Zen4Wp Options', 'manage_options', 'zen4wp_set_options', 'zen4wp_options_form');
+  add_options_page('Set Zen4WP Options', 'Set Zen4WP Options', 'manage_options', 'zen4wp_set_options', 'zen4wp_options_form');
 }
 
 function zen4wp_options_form() {
@@ -34,7 +34,7 @@ function update_display_zen4wp_options($update_only = false) {
     
     if (!$update_only) {
 ?>  
-  <div class="updated"><p><strong><?php _e('Your Zen4Wp Options have been saved.' ); ?></strong></p></div>  
+  <div class="updated"><p><strong><?php _e('Your Zen4WP Options have been saved.' ); ?></strong></p></div>  
 <?php
     }
   }
@@ -51,7 +51,7 @@ function update_display_zen4wp_options($update_only = false) {
     }
 ?>
   <div class="wrap">
-    <h2><?php echo __( 'Set Zen4Wp Options', 'zen4wp_config' ); ?></h2>
+    <h2><?php echo __( 'Set Zen4WP Options', 'zen4wp_config' ); ?></h2>
     <form name="zen4wp_config" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
       <h4><?php echo __( 'Set these settings to the value of the like-named entry in your Zen Cart\'s /includes/configure.php file:'); ?></h4>
       <table class="form-table">
@@ -99,7 +99,7 @@ function update_display_zen4wp_options($update_only = false) {
         </tr>
       </table>
 
-      <p class="submit"><input type="submit" name="Submit" class="button button-primary" value="<?php _e('Update Zen4Wp Options', 'zen4wp_config' ) ?>" /></p>
+      <p class="submit"><input type="submit" name="Submit" class="button button-primary" value="<?php _e('Update Zen4WP Options', 'zen4wp_config' ) ?>" /></p>
     </form>
   </div>
   

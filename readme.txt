@@ -3,7 +3,7 @@ Tags: WordPress and Zen Cart, Zen Cart and WordPress Integration, wp4zen, zen4wp
 Contributors: lat9, DivaVocals
 Minimum version: 3.5
 Requires at least: 3.5
-Tested up to: 4.1
+Tested up to: 4.3.x
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,7 +21,7 @@ Basically, Zen4WP is a WordPress plugin that can be used to integrate Zen Cart *
 = Prerequisites for Zen Cart for WordPress (zen4wp) =
 
    * A Zen Cart store installed and operable. Tested with Zen Cart v1.5.x.
-   * WordPress installed and operable. Tested with WordPress v3.5.x - v3.9.x.
+   * WordPress installed and operable. Tested with WordPress v3.5.x - v4.x.
    * The Zen Cart and WordPress installations share a common mySQL database. (use table prefixes to separate WordPress tables from Zen Cart tables)
    * The Zen Cart and WordPress installations must share the same domain.
    * Update the admin configuration options with the correct filepath to the WordPress installation.
@@ -30,7 +30,7 @@ Note: If your store/blog configuration does NOT match these prerequisites, then 
 
 = Want more??? Get Zen Cart for WordPress Premium (zen4wp) =
 
-[Zen Cart for WordPress Premium (zen4wp)](http://overthehillweb.com/shop/premium-modules-plugins-addons/wordpress-premium-plugins/zen-cartr-for-wordpress-zen4wp#.U9Joe7GTIS4) adds more widgets (including the shopping cart, categories, manufacturers, reviews, and testimonials widget) and shortcodes.
+[Zen Cart for WordPress Premium (zen4wp)](http://overthehillweb.com/shop/premium-modules-plugins-addons/wordpress-premium-plugins/zen-cartr-for-wordpress-zen4wp) adds more widgets (including the shopping cart, categories, manufacturers, reviews, and testimonials widget) and shortcodes.
 
 To use the premium (paid) features, you must first install the (free) base plugin (Zen Cart for WordPress) 
 
@@ -67,17 +67,17 @@ This list identifies each of the features provided by zen4wp and the zen4wp leve
 * ***zen4wp_testimonials*** - If the testimonials_manager plugin is installed, displays a collection of testimonials from the Zen Cart store, modelled after the Testimonials sidebox. You configure the total number and the number-per-row for each instance as well as the number of characters of the testimonials text to include. <br />***(Premium - Option 2)***
 
 == Other Modules/Plugins ==
-For a COMPLETE integration solution, see also: [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen#.U9JykrGTIS4)
+For a COMPLETE integration solution, see also: [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen)
 WordPress for Zen Cart (wp4zen) is a Zen Cart module that allows shopowners to display WordPress content on their Zen Cart site simply using sideboxes.
 
 These admin configurable sideboxes are meant to link your WordPress blog to your Zen Cart store without having to implement complicated WordPress blog embedding solutions/add-ons. These sideboxes pull content links directly from the WordPress blog. All a store owner has to do is to style their WordPress blog to match their store (or vice versa).
 
 Some may find these sideboxes are a LOT less troublesome than blog embedding solutions.
 
-See [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen#.U9JykrGTIS4) in action here:
+See [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-modules-plugins-addons/zen-cart-free-add-ons/wordpress-for-zen-cartr-basic-wp4zen) in action here:
 
 * http://eyeitalia.com
-* http://laserdiscvault.com
+* http://tablelegworld.com
 * http://overthehillweb.com
 
 == Installation ==
@@ -90,7 +90,6 @@ See [WordPress for Zen Cart Basic (wp4zen)](http://overthehillweb.com/shop/free-
 
 = Where can I see this plugin in action? =
 * http://eyeitalia.com
-* http://laserdiscvault.com
 * http://tablelegworld.com
 * http://lakesidefasteners.ca
 * http://overthehillweb.com
@@ -131,3 +130,5 @@ To learn more, go to http://zencart-wordpress-integration.com/
 * Best Sellers widget: Throwing "printf() too few args" on line 97
 * Correct various PHP notify errors (a couple of which were variable "misspellings").
 * Duplicated definition: ZEN_TABLE_PRODUCT_TYPES
+= v1.3.1a, 2014-09-18 =
+* Update to readme to reflect compatibility with current version of WordPress
